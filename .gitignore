@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.*
+*.local
+secrets.*
+
+# Runtime logs and temporary data
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+tmp/
+temp/
+logs/
+out/
+
+# Testing and coverage (e.g., Bats, kcov, ShellSpec)
+coverage/
+report/
+.bats/
+test-results/
+
+# Packaging and build artifacts (if distributing)
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
